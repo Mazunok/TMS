@@ -30,3 +30,13 @@
     width: 180px;
     border: 1px solid #FFFFFF;
 }
+
+.modern__text{
+    width: 270px;
+    padding-left: 170px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
