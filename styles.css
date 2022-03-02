@@ -1,8 +1,39 @@
 .body{
-    max-width: 1170px;
-    padding: 0.15px;
+    width: 1510px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 1510px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header{
-    background: black;
+    width: 1510px;
+    height: 75px;
+    background-color: black;
+}
+
+.header__logo{
+    padding-left: 100px;
+}
+
+.header__nav-menu{
+    width: 570px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link{
+   text-decoration: none;
+   width: 113.8px;
+   font-family: 'Open sans', sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
 }
