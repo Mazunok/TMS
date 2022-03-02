@@ -7,6 +7,14 @@
     background-repeat: no-repeat;
 }
 
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
 .modern__logo{
     padding-left: 170px;
     padding-top: 306px;
@@ -38,5 +46,22 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
+    color: #FFFFFF;
+}
+
+.modern__btn{
+    margin-left: 170px;
+    margin-top: 30px;
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+}
+
+button{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
     color: #FFFFFF;
 }
