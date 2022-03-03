@@ -13,6 +13,15 @@
     margin: 0 auto;
 }
 
+.form__input{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+input{
+    border: none;
+}  
+
 button{
     padding: 0;
     border: none;
@@ -101,3 +110,15 @@ button{
 .free{
     color: #EC7979;
 }
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 370px;
+    height: 180px;
+}
+
+
+
+
