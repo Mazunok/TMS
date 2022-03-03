@@ -76,17 +76,26 @@ button{
     height: 58px;
     border: 2px solid #FFFFFF;
     text-align: center;
-}
-
-button{
-    padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
 }
 
+.modern__btn:hover{
+    border: 2px solid #EC7979;
+    color:#EC7979
+}
+
+.modern__btn:active{
+    background-color: #AB4949;
+    border: #AB4949;
+    color: white;
+
+}
+
 .form-wrapper{
+    position: relative;
     margin-top: 283px;
     margin-left: 30px;
     width: 470px;
@@ -119,6 +128,28 @@ button{
     height: 180px;
 }
 
+input{
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
 
-
+.form__btn{
+    padding: 0px;
+    width: 470px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
 
