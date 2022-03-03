@@ -1,4 +1,6 @@
 .baner{
+    display: flex;
+    flex-direction: row;
     max-width: 1510px;
     height: 1026px;
     margin: 0 auto;
@@ -7,12 +9,21 @@
     background-repeat: no-repeat;
 }
 
+.form-wrapper__text{
+    margin: 0 auto;
+}
+
 button{
     padding: 0;
     border: none;
     font: inherit;
     color: inherit;
     background-color: transparent;
+}
+
+.modern__wrapper{
+    display: flex;
+    flex-direction: row;
 }
 
 .modern__logo{
@@ -36,7 +47,7 @@ button{
     margin-left: 170px;
     margin-top: 55px;
     width: 180px;
-    border: 1px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 .modern__text{
@@ -64,4 +75,29 @@ button{
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.form-wrapper{
+    margin-top: 283px;
+    margin-left: 30px;
+    width: 470px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form-wrapper__text{
+    width: 367px;
+    height: 90px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700 ;
+    font-size: 24px;
+    color: #333333;
+}
+
+.free{
+    color: #EC7979;
 }
