@@ -1,7 +1,7 @@
 .baner{
     display: flex;
     flex-direction: row;
-    max-width: 1510px;
+    width: 1510px;
     height: 1026px;
     margin: 0 auto;
     padding: 0px;
