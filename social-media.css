@@ -37,3 +37,11 @@ h4{
     line-height: 21px;
     color: #86878B;;
 }
+
+.media-block__logotips{
+    width: 755px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
