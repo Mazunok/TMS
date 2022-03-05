@@ -1,3 +1,8 @@
+.social-media{
+    width: 1510px;
+    background-color: white;
+}
+
 .media-block{
     margin: 0px auto;
     padding: 0px;
@@ -43,5 +48,43 @@ h4{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.tab-wrapper{
+    margin: 0 auto;
+    padding: 0px;
+    width: 1170px;
+    background-color: white;
+}
+
+.tabs{
+    margin: 0px auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.tab1, .tab2, .tab3{
+    width: 203px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.tabs-text>p{
+    margin: 0 auto;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-info{
+width: 570px;
 }
 
