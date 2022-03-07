@@ -13,6 +13,14 @@
     background-color: #F8EFEF;
 }
 
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
 h4{
     margin: 0px auto;
     padding-top: 15px;
@@ -105,3 +113,17 @@ color: #000000;
     color: #000000;
 }
 
+.tabs-btn{
+    margin-top:20px;
+    width: 270px;
+    height: 58px;
+    text-align: center;
+    background: #EC7979;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
