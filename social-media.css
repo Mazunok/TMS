@@ -86,6 +86,15 @@ h4{
 .tab1{
     border: 1px solid #C6CBCD;
     border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab2, .tab3{
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tab3{
+    padding-right: 300px;
 }
 
 .tabs-text{
@@ -99,7 +108,8 @@ h4{
 .info-wrapper{
     display: flex;
     flex-direction: row;
-    border: 1px solid #C6CBCD;;
+    border: 1px solid #C6CBCD;
+    border-top: none;
 }
 
 .tabs-info{

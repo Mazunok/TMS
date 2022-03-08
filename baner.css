@@ -80,6 +80,7 @@ button{
     font-size: 18px;
     color: #FFFFFF;
     cursor: pointer;
+    border: 2px solid #FFFFFF;
 }
 
 .modern__btn:hover{
