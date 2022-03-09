@@ -5,3 +5,43 @@
     padding: 0px;
     background-color: #F5F5F5;
 }
+
+.price-wrapper{
+    margin: 0 auto;
+    padding: 0px;
+    width: 1170px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.price-title{
+    width: 1170px;
+    padding: 0px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.price-line{
+    width: 170px;
+    margin: 0 auto;
+    border-top: 1px solid #EC7979;
+}
+
+.price-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #86878B;
+    text-align: center;
+    height: 21px;
+    margin-top: 40px;
+}
