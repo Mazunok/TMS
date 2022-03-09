@@ -9,7 +9,7 @@
     margin: 0 auto;
     padding: 0px;
     width: 1170px;
-    height: 630px;
+    height: 700px;
     display: flex;
     padding-top: 50px;
     flex-direction: column;
@@ -46,4 +46,76 @@ h2{
     height: 21px;
     margin-top: 40px;
     cursor: pointer;
+}
+
+.review-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-cards{
+    margin-top: 83px; 
+    width: 370px;
+    height: 150px;
+    left: 170px;
+    padding-top: 30px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #86878B;
+}
+
+.triangle-down {
+    margin-top: 22px;
+    margin-left: 80px;
+    width: 0px; 
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.profile-card1, .profile-card2, .profile-card3{
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+}
+
+.profile-picture{
+    margin-top:25px;
+}
+
+.profile__title{
+    width: 269px;
+    height: 64px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.profile__text{
+    width: 270px;
+    height: 21px;
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
