@@ -10,9 +10,49 @@ h2{
     padding: 0px;
 }
 
-.thougtful-wrapper{
+.thougtful__wrapper{
     margin: 0 auto;
     padding: 0px;
     width: 1170px;
     height: 665px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thougtful-title{
+    width: 1170px;
+    height: 150px;
+    padding-top: 50px;
+
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.thoughtful-line{
+    width: 170px;
+    margin: 0 auto;
+    border-top: 1px solid #EC7979;
+}
+
+.thoughtful-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #86878B;
+    text-align: center;
+    height: 21px;
+    margin-top: 40px;
 }
