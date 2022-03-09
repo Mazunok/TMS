@@ -1,0 +1,49 @@
+.customer{
+    width: 1510px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+}
+
+.customer-wrapper{
+    margin: 0 auto;
+    padding: 0px;
+    width: 1170px;
+    height: 630px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.customer-title{
+    width: 1170px;
+    padding: 0px;
+    height: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.customer-line{
+    width: 170px;
+    margin: 0 auto;
+    border-top: 1px solid #EC7979;
+}
+
+.customer-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #86878B;
+    text-align: center;
+    height: 21px;
+    margin-top: 40px;
+    cursor: pointer;
+}
