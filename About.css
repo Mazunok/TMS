@@ -33,6 +33,7 @@ h2{
     height: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
+    cursor: pointer;
 }
 
 h2{
@@ -57,6 +58,7 @@ h2{
     text-align: center;
     height: 21px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .card-title{
@@ -65,6 +67,7 @@ h2{
     font-size: 24px;
     text-align: center;
     color: #000000;
+    cursor: pointer;
 }
 
 .card-text{
@@ -76,11 +79,13 @@ h2{
     line-height: 21px;
     text-align: center;
     color: #000000;
+    cursor: pointer;
 }
 
 .card-img{
     padding-left: 100px;
     padding-top: 80px;
+    cursor: pointer;
 }
 
 .card1, .card2, .card3{

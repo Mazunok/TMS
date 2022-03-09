@@ -38,6 +38,7 @@ h4{
     font-weight: 700;
     font-size: 24px;
     color: #333333;
+    cursor: pointer;
 }
 
 .sm-text{
@@ -48,7 +49,8 @@ h4{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #86878B;;
+    color: #86878B;
+    cursor: pointer;
 }
 
 .media-block__logotips{
@@ -69,6 +71,7 @@ h4{
     margin: 0px auto;
     display: flex;
     margin-top: 100px;
+    cursor: pointer;
 }
 
 .tab1, .tab2, .tab3{
@@ -99,6 +102,7 @@ h4{
 
 .tabs-text{
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .tabs-text>p{
@@ -113,12 +117,13 @@ h4{
 }
 
 .tabs-info{
-width: 570px;
-font-family: 'Raleway', sans-serif;
-font-weight:400;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+    width: 570px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    cursor:pointer;
 }
 
 .tabs-title{
@@ -131,6 +136,7 @@ color: #000000;
     font-size: 30px;
     line-height: 41px;
     color: #000000;
+    cursor: pointer;
 }
 
 .tabs-btn{
