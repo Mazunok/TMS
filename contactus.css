@@ -1,0 +1,111 @@
+.contact-us{
+    width: 1510px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+}
+
+.contact-wrapper{
+    width: 1170px;
+    height: 622px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.contact-title{
+    width: 1170px;
+    height: 80px;
+    padding: 0px;
+    padding-top: 80px;
+    cursor: pointer;
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.contact-title__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;  
+}
+
+
+.contactus-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #86878B;
+    text-align: center;
+    line-height: 21px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.contactus-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-line{
+    width: 170px;
+    margin: 0 auto;
+    border-top: 1px solid #EC7979;
+}
+
+.contact-input{
+    border: 0;
+    height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #bdbdbd;
+    width: 571px;
+    margin-top: 40px;
+}
+
+.message-form{
+    width: 569px;
+    margin: 0 auto;
+}
+
+.message-input{
+    width: 569px;
+    margin-top: 38px;
+    padding-bottom:172px;
+}
+
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.contact-btn__text{
+    margin-top:50px;
+    margin-left: 400px;
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+

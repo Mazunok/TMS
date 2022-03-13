@@ -1,0 +1,93 @@
+.about{
+    width: 1510px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+}
+
+h2{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.thougtful__wrapper{
+    margin: 0 auto;
+    padding: 0px;
+    width: 1170px;
+    height: 665px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thougtful-title{
+    width: 1170px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.thoughtful-line{
+    width: 170px;
+    margin: 0 auto;
+    border-top: 1px solid #EC7979;
+}
+
+.thoughtful-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;    
+    color: #86878B;
+    text-align: center;
+    height: 21px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.card-text{
+    padding-top: 30px;
+    height: 105px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.card-img{
+    padding-left: 100px;
+    padding-top: 80px;
+    cursor: pointer;
+}
+
+.card1, .card2, .card3{
+    width: 369px;
+}
