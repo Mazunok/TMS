@@ -67,6 +67,7 @@ h2{
     line-height: 25px;
     text-align: center;
     color: #86878B;
+    cursor: pointer;
 }
 
 .triangle-down {
@@ -96,6 +97,7 @@ h2{
 
 .profile-picture{
     margin-top:25px;
+    cursor: pointer;
 }
 
 .profile__title{
@@ -107,6 +109,7 @@ h2{
     font-size: 24px;
     line-height: 64px;
     color: #000000;
+    cursor: pointer;
 }
 
 .profile__text{
@@ -118,4 +121,5 @@ h2{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+    cursor: pointer;
 }
